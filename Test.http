@@ -1,0 +1,55 @@
+GET HTTP://localhost:5060/api/GiocoUno HTTP/1.1
+
+###
+
+https://giustoprezzo.azurewebsites.net/categorie HTTP/1.1
+
+###
+
+GET HTTP://localhost:5060/2/2 HTTP/1.1
+
+###
+
+GET HTTP://192.168.100.100:5000/2/3 HTTP/1.1
+
+###
+
+POST HTTP://localhost:5060/api/GiocoUno HTTP/1.1
+Content-Type: application/json
+
+{
+    "descrizione": "Bombolone",
+    "giustoPrezzo": 1.50,
+    "prezzoUno": 1.00,
+    "prezzoDue": 2.00,
+    "dataAggiornamento": "2022-02-07T00:00:00",
+    "UrlImmagine": "https://www.viridea.it/wp-content/uploads/2019/09/Marzo-quale-fiori-regalare-alle-donne-1.jpg",
+    "count": 0
+}
+###
+
+DELETE HTTP://localhost:5060/api/GiocoUno HTTP/1.1
+Content-Type: application/json
+
+{
+    "articoloID": 5
+}
+###
+
+DELETE HTTP://localhost:5060/api/GiocoUno/7 HTTP/1.1
+
+###
+
+PUT HTTP://localhost:5060/api/GiocoUno/6 HTTP/1.1
+Content-Type: application/json
+
+{   
+    "articoloID": 6,
+    "descrizione": "Dixan Duo Caps detersivo lavatrice - 112 capsule",
+    "giustoPrezzo": 28.26,
+    "prezzoUno": 42.85,
+    "prezzoDue": 18.34,
+    "dataAggiornamento": "2022-01-31T00:00:00",
+    "count": 0
+}
+###

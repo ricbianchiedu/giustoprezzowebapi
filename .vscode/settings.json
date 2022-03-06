@@ -1,0 +1,4 @@
+{
+    "appService.deploySubpath": "publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/87aa00b2-c242-4481-bdbf-98bf94021af6/resourceGroups/webapi/providers/Microsoft.Web/sites/giustoprezzo"
+}

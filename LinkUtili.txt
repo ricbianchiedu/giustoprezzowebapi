@@ -1,0 +1,14 @@
+Creare un accesso FTPS su Azure per potere scaricare il database di produzione:
+https://docs.microsoft.com/en-gb/azure/app-service/deploy-configure-credentials?tabs=portal
+
+Rollback del DB ad una migrazione precedente:
+https://stackoverflow.com/questions/11904571/ef-migrations-rollback-last-applied-migration
+
+dotnet ef database update [Name of previous Migration]
+
+Gestire le chiavi esterne in EF Code First Approach
+//https://docs.microsoft.com/en-gb/ef/ef6/fundamentals/relationships?redirectedfrom=MSDN
+
+GET Multiparametro
+https://www.telerik.com/blogs/how-to-pass-multiple-parameters-get-method-aspnet-core-mvc
+
