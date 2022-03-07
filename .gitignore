@@ -168,7 +168,7 @@ DocProject/Help/html
 
 # Click-Once directory
 publish/
-migrations/
+[Mm]igrations/
 
 # Publish Web Output
 *.[Pp]ublish.xml
