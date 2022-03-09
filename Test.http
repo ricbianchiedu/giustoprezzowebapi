@@ -2,10 +2,6 @@ GET HTTP://localhost:5060/api/GiocoUno HTTP/1.1
 
 ###
 
-https://giustoprezzo.azurewebsites.net/categorie HTTP/1.1
-
-###
-
 GET HTTP://localhost:5060/2/2 HTTP/1.1
 
 ###
