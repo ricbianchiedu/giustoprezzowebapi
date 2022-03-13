@@ -17,11 +17,9 @@ public class Articolo
         public DateTime DataAggiornamento {get; set;}
         public int Count {get; set;} = 0;
 
-
-        //https://docs.microsoft.com/en-gb/ef/ef6/fundamentals/relationships?redirectedfrom=MSDN
         [ForeignKey("CategoriaID")]
         public int? CategoriaID { get; set; }
-        public virtual Categoria Categoria { get; set; }
+        public Categoria Categoria { get; set; }
 
         public override string ToString()
         => $"{ArticoloID}\t{Descrizione} {CategoriaID} {GiustoPrezzo} {PrezzoUno} {PrezzoDue} {DataAggiornamento} {Count}";

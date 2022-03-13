@@ -1,13 +1,8 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
 
-public partial class Categoria
+public class Categoria
 {
-        public Categoria()
-        {
-           this.Articles = new HashSet<Articolo>();     
-        }
-
         [Key]
         public int CategoriaID{ get; set; }
         
