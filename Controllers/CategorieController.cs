@@ -41,8 +41,8 @@ namespace GiustoPrezzo.Controllers
             {
                 CategoriaWeb c = new CategoriaWeb();
                 
-                c.CategoriaID = x.CategoriaID;
-                c.Descrizione = x.Descrizione;
+                c.CategoriaWebID = x.CategoriaID;
+                c.Descrizione = x.DescrizioneCat;
                                
                 query.Add(c);
             }

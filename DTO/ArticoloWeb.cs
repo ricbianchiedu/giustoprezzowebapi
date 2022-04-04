@@ -10,6 +10,4 @@ public class ArticoloWeb
         //public int Count {get; set;} = 0;
         //public int? CategoriaID { get; set; }
       
-        public override string ToString()
-        => $"{Descrizione} {GiustoPrezzo} {PrezzoUno} {PrezzoDue}";
 }

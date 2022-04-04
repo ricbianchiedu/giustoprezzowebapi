@@ -6,7 +6,23 @@ GET HTTP://localhost:5060/2 HTTP/1.1
 
 ###
 
-GET HTTP://192.168.100.100:5000/2/3 HTTP/1.1
+GET HTTP://localhost:5060/categorie HTTP/1.1
+
+###
+
+GET HTTP://localhost:5060/3/5 HTTP/1.1
+
+###
+
+GET HTTP://localhost:5060/GiocoUnoCat/3 HTTP/1.1
+
+###
+
+GET HTTP://localhost:5060/GiocoUnoCat/5/2 HTTP/1.1
+
+###
+
+GET HTTP://localhost:5060/3/5 HTTP/1.1
 
 ###
 
